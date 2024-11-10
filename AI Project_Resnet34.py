@@ -61,6 +61,7 @@ print(f'Training images count: {dataset_sizes["train"]}')
 print(f'Validation images count: {dataset_sizes["val"]}')
 print(f'Class names:{class_names}')
 
+## Second Part of running the code
 def imshow(inp, title=None):
     """Imshow for Tensor."""
     inp = inp.numpy().transpose((1, 2, 0))
