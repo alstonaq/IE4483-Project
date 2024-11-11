@@ -253,9 +253,9 @@ if preds[0][0]> preds[0][1]:
 else:
     print(f"This image is a dog")
 
-
+# Function to extract id of images for saving of results
 def extract_fileid(fname):
-    match = re.search(r'\d+', fname)  # Extract the first sequence of digits
+    match = re.search(r'\d+', fname)  
     if match:
         return int(match.group())
     else:
