@@ -122,7 +122,7 @@ def train_model(model, criterion, optimizer, num_epochs=30, checkpoint = None):
                     _, preds = torch.max(outputs, 1)
                     loss = criterion(outputs, labels)
                     
-# backward pass and optimization only if in training phase
+# backward pass and optimization during training
                     if phase == 'train':
                         loss.backward()
                         optimizer.step()
