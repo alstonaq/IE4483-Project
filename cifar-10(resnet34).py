@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Nov 10 20:01:47 2024
-
-@author: Asus
-"""
-
 import torch
 import torch.nn as nn
 import torch.optim as optim
