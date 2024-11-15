@@ -13,3 +13,7 @@ print(f'Class names:{class_names}')"
 4) To start training the model, run the remaining part of the code which will define the model being used which is resnet34 and the desired amount of epochs and learning rate, the model will then make use of the weights of the epoch that has achieved the best validation accuracy and the least validation loss for the testing stage.
    
 5) Included in the code, are functions that plots randomly selected images and dsiplay how the model classify them as, and a function that allows you to individually check how the model classify the desired image to be either a dog or a cat.
+
+
+Side note:
+The code used for question G and H is cifar-10(resnet34).py
